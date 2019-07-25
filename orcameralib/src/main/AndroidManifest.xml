@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mrxmgd.orcameralib">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
+    <application>
+        <activity
+                android:name="com.mrxmgd.orcameralib.CameraActivity"
+                android:screenOrientation="portrait"/>
+    </application>
+</manifest>

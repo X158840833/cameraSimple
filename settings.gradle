@@ -1,0 +1,2 @@
+include ':app',':orcameralib'
+rootProject.name='My Application'
