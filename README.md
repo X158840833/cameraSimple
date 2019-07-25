@@ -1,7 +1,9 @@
 # ORCamera
 #### Android 好用的身份证拍照界面封装
 
-感谢这位老哥：https://github.com/lvzhihao100/ORCamera，这个只是在他的上面加了一点自己的需求
+感谢这位老哥：https://github.com/lvzhihao100/ORCamera
+
+这个只是在他的上面加了一点自己的需求
 
 `手持身份证`调用
 ```java
@@ -58,3 +60,10 @@
 + CameraActivity.CONTENT_TYPE_GENERAL：手持身份证
 + CameraActivity.CONTENT_TYPE_ID_CARD_FRONT：身份证正面
 + CameraActivity.CONTENT_TYPE_ID_CARD_BACK：身份证反面
+
+
+
+
+```
+`CameraActivity.KEY_ENABLE_ALBUM`：是否开启相册
+`CameraActivity.KEY_ENABLE_FRONT`：是否开启摄像头切换
