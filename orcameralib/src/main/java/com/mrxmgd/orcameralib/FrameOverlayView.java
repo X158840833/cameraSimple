@@ -109,8 +109,8 @@ public class FrameOverlayView extends View {
             frameRect.left = (int) (w * 0.05);
             frameRect.top = (int) (h * 0.25);
         } else {
-            frameRect.left = (int) (w * 0.2);
-            frameRect.top = (int) (h * 0.2);
+            frameRect.left = (int) (w * 0.02);
+            frameRect.top = (int) (h * 0.02);
         }
         frameRect.right = w - frameRect.left;
         frameRect.bottom = h - frameRect.top;
